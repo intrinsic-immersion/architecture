@@ -76,6 +76,7 @@ UserDevice -->|search query| HelpCenterPods
 UserDevice -->|page-slug| HelpCenterPods
 Expresso -->|Search Results or Article| UserDevice
 ```
+[Mermaid Editor](https://mermaid.live/edit#pako:eNp9VG1P2zAQ_isnf9qklpWUvkUICQHSNgHqKNOkJXxwkyOx6tjBL0BH-e9z4mQpbTV_aH32c3fP3T3xG0lkiiQkj1y-JDlVBq7vYhELbZeZomUOV2mGsQC3_G938Voq1FpGidVGFrCaaiiooBmqBw_9AP-KvLxAYVDNZao7QLUWSFWSfzw7V4YlHLeQKFJv1JtdNikzUi1QPbMEdXRTE0mhPdhi5JHnZQn9_hncrBc_rrvL2ow-ub8nDlIAp9oAx-zzdoDqkCVw6vw3uqYOTxbVerNXyEcotxlwKVe23OyUd6iilvoFd_1FFd0jLfr_qWtul81Iosjt-40Rwq2bMJzPvwEVKSTKVfUoFZR2yZnOmciAJoZJoR8eqo5sqGcGzvuZ4YuG06X6ctaawESKr5u2sp3O1QFapPdzqQTLcsNdezqKh2jXzrce63k2HJtIdeaKb0Xf9_0Aj-8oVkz4YJdYcrmGpaIiyTs-BWUutpLp5qAqt4bRXd9hKX11Vru021kcS_QV7FfY2YcDVImafL8Uc3l0rZVOpFEn14Y_T-Ho9uoeqDsKBoOZk8BPjeoSK0HAviZ3S9wBl05P_Uqa-8j2C69xXtpwh9pyo6s2NhLeQBeR9EiByvU3dU_KW9WCmJgcC4xJ6LYpVauYxOLd4ag1crEWCQmNstgjStosJ-Ej5dpZtkypwUtG3bdQ_DstqfgtZdG6OJOEb-SVhMeD2dF4Ojk5Gc6OZ-PxaNojaxIOJ-Oj6WQQTKejWTAMhsfj9x75UwcYuIvRwK1gdjIJxqNg2COZqmg3bNxQUF1IK4yLHvQI1mO48Y9l_Wa2JP2AvOP7X7H9wlw)
 
 ## Digital Care: Helpcenter we created with Contentful and Gasket (NextJS)
 
@@ -145,65 +146,11 @@ flowchart TD
     LiveAgent[LiveAgent interface for support agents] --> GodaddyGuides[Guides: Real Agents]
 ```
 
-
-### I was taking shortcuts due to mermaid, so I drew it out.
-
-```mermaid
-flowchart LR
-
-Contentful --> 
-    DraftArticles --> 
-        ArticlesTest -->|transform into old format| PubExpress
-
-Contentful --> 
-    PublishedArticles --> 
-        ArticlesProd --> 
-            PubExpress
-
-Contentful
-
-BrightCove -->|video + transcript| DraftVideos -->|video catalog| VideoTest
-BrightCove -->|video + transcript| PublishedVideos -->|video catalog| VideoProd
+[Mermaid Editor](https://mermaid.live/edit#pako:eNqFVW1v2zYQ_isHflYDx3GcRBjWuk0aGNuAoBkwYFY-0OJZIkKRGl-cpnb--46Ubamtk-qDRB559xyf53jasNIIZDlbKfNU1tx6-Pu60ECPC8vK8raGa8mVqT7Thm4hPp0tOs3u5r2Zf9iAq3mLORTMmqAFioJloPgSVbR9xJWxCLN5DlJ71B6clquV1BXQdh-_S-NdH3EPBc7bUPpg0UEZrOUeBSyf4clKj9adwNAlOLRQGgL46uNEgDdQo2oTCMaZrxGsrGoPvKI0CvbSB1h-2Lx5iKWsQFjkjQOjwbVYUoryG8GkWA64FhDa0jTxPLP5IThqUegf2EVR4eLWXHMhnuGGJg99Ip9q7iMds1YuBuMcSoKxXEWu6JxNE7QsuZdGP8Bv7979viUdZanQbeELCukW6Q2adqPijtaOg3TO37EXjxJRCI5kKrevKf9mlC3cWSNIPnePdi1LHPiZVAaroBb9EGa7_B-AQnVneJ1BJdfYUg0Y3Yc9LP5Jize6ImGGBQIwd7Oo1WzNJemqcDGPskEyAidrNL5P-NukKtTcfVdY2b6C9xSRfU1pJB1crDGLa4lP25RDCvx2CgmLDATxX8CAWYTryDdQcapYu4PcwkfjiS6NpTe2j5rY2U-OoA69FsNJDnxAY0KxK15iPNNKVnTr0hXyXD3Gr-iuZCwC6Cj6qRBdXzGD0nhdxKU1T0Run-u9FPiHLB-7aorxI8_Uon4E2h7V-OAevSkVGjl0jhyk2CuXUU_gytcZNRfugzuSanzKX7SDCPVIUHk8GMabD0uMN5-nzOCuIzWl3jPbx_8n0hyUSHK3KlRSdy0E113daaEoBPmC9Md6yUHpxWE0AKKGSzS3rbG7Xre7VbdGxJ5zGyh9t-g-Od01aiuzbhvLWIO24VLQD2ITsQpGVdhgweK5BbePBSv0C-3jwZv7Z12ynNo0ZpGnqmb5iitHs9AK6tfUOUjr5mBtuf7XmGbvQlOWb9hXlo_PJydXk_F4enZ-eTaenGfsmeWnJ6Oz0Wg6vbi4GJ2PaPUlY9-S--jkanp6ejqaXo7HV5PJ9OIyY5WNSe9yibLYT6ScpzCTs4xRP6Gi_6v786Uf4D7Hm7TSeb78D22BXuI)
 
 
-subgraph Edge
-    Elastic -->|draft articles| SearchTest
-    Elastic -->|prod articles| SearchProd
-    
-    HelpCenterRepo[Repo: helpcenter is now a NextJS app with proper routes] -->|push| Jenkins
-    
-    subgraph AWS[AWS EKS + ingress]
-        subgraph HelpCenterPodsTest
-            SearchTest[Search Page]
-            ArticlesTest[Articles Page]
-            VideoTest[HowTo Page]
-        end
-        subgraph HelpCenterPodsProd
-            SearchProd[Search Page]
-            ArticlesProd[Articles Page]
-            VideoProd[HowTo Page]
-        end
-    end
 
-    ChatbotApi <--> Elastic
+### OLD Attempt: I was taking shortcuts due to mermaid, so I drew it out.
 
-    subgraph EditorServices[Managed Services]
-        Elastic
-    end
+[Mermaid View](https://mermaid.live/edit#pako:eNqNVW1v2jAQ_isnfx3toJSyRlUlRpG6bqtY6VZpCR9MciRWgx3ZDpSV_vfZzguBdaWREvnsu-eeOz92nkkoIiQemadiFSZUavh2F_CADwXXyPU8T-Ho6BICDua5knSuB1KzMEXVmLdPNX2PStuljZaUq7mQC2BcCxBpBNaiegPjfDZ6yiQq9d9UxiVlKsHoQLqxFNHeUhn-agZrfZYsTvRQLNHxXLIIBXwAxzeULDMEXaG_7IJq-IRU01TEG3ArttB3gdWlHAC0pVh-AVf5LJY0S2AUxVgUNkqpMhW74MiyA1p2YAMTpDJMCj77vpntz75rkcm6Ft9rTLOhaRDKO8yEbz8eJGYydJPAFHCxAgq3-KRvJkCzDFZMJ2DQM7MuRa5RTYuEuUo2cIP8kXHVTFIXNXiY-OaF0deJ6RTjsd2m6Xb_asctrbGI1La-6tnW7RdDGNMYp7tOTV36tZhecaw31b8Wq3ux74I8Okhx29ddinb-HRSd20GKzuttim5QDIcJ1TOhBxmDC3tMSm1Uyw2lMS3kBOWShaj875Qb7AiqiUaWGmEvUw1VxQzTXJnG-PdIF0dvAG7Pqu-b8VFpeHBrriYYjL8A5RGEUnB7gUBWHCejG6ChZoKraaG8UuVGlLhkuFJwMZMfLyvTCC3Cp80u_d30DuXWnud0XeQrc5VIDsHmtTSU285X8ErpO7ArzFKxhpm5DcIKxcQuKOP27ESbPQE1mlp21h4Ui1Sq5w5VnuqqtFIrpeXUsYGfCuUV2ibb-FoyeYiyuES3V1bAHyTTdt5pY_ea3OK4qILAjxzlumEXit9ztbKcpHnsjKa4__F07GrXmitpkQWaXwWLzJ_p2TYlIDrBBQbEM8OIyseABPzF-NFci8mah8TTMscWMVdRnBBvTlNlrDyLqMYrRo0yF_VsRvlvIRZViDGJ90yeiHfSOz0-Pz05Oev2PnVPTnstsiZe57jdbbfPzvr9frvXNqsvLfLHhbePz886nU67b97zfr_T77ZILC3pkovZQ5RDkXNtYCwculP2vfjluj9vxbE4f0Xky1-hGYLP)
 
-    subgraph ServicesCluster[Team-Managed Services]
-        PubExpress[[Pub-Express: Node API and cron for publishing actions]] -->|article previews <br/> preview index| Elastic
-        PubExpress -->|Nightly cron publish <br/> indexing for search| Elastic
-        Jenkins -->|Deploy branch <br/> or main prod| HelpCenterPods
-    end
-end
-
-AWS -->|Search Results <br/> Article <br/> Video| UserDevice
-
-VideoProducers --> BrightCove
-Writers <--> Contentful
-
-UserDevice --> SearchQuery --> SearchProd
-UserDevice --> PageSlug --> ArticlesProd
-UserDevice --> VideoSlug --> VideoProd
-```
